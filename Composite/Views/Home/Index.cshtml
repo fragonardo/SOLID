@@ -1,0 +1,34 @@
+﻿@model List<Composite.Core.Menu>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Here is your menu</h1>
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>
+            @if(item.OpenInWindow)
+            {
+                <a href="@item.NavigationUrl" _target="_blank">@item.Text</a>
+            }
+            else
+            {
+                <a href="@item.NavigationUrl">@item.Text</a>
+            }
+            <ul>
+            @foreach(var subItem in item.Children)
+            {
+                <li>
+                    <a href="@subItem.NavigationUrl">@subItem.Text</a>
+                </li>
+            }
+            </ul>
+        </li>
+    }
+</ul>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
