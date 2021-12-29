@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AfEI1UyY8sEVvHLJ7ulNd3jGjylq0Hi8xDUpAICLSzzbhpmsXZy4+HqSAbHYrx46S8eUKgp0MdWFDt5aRNDJww==",
+  "success": true,
+  "projectFilePath": "C:\\dotnet-app\\SOLID\\Factory_Method\\Factory_Method.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Franck-OlivierFragon\\.nuget\\packages\\microsoft.toolkit\\7.1.2\\microsoft.toolkit.7.1.2.nupkg.sha512",
+    "C:\\Users\\Franck-OlivierFragon\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Franck-OlivierFragon\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

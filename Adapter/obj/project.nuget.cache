@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BZplO42VJV58pmad4JOPsTbML3XVi9m1euQBiYrboxvOCw4IWjU43cM7K1cZozO6SIbClFdtv1C7NFUO827dOA==",
+  "success": true,
+  "projectFilePath": "C:\\dotnet-app\\SOLID\\Adapter\\Adapter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Franck-OlivierFragon\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Franck-OlivierFragon\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
